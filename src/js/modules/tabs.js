@@ -1,4 +1,38 @@
-const tabs = () => {
+const tabs = (headerSelector, tabSelector, contentSelector, activeClass) => {
+    const header = document.querySelector(headerSelector),
+     tab = document.querySelectorAll(tabSelector),
+     content = document.querySelectorAll(contentSelector);
+
+    function hideTabContent (){
+        content.forEach(item => {
+            item.style.display = 'none';
+        });
+
+        tab.forEach(item =>{
+            item.classList.remove(activeClass);
+        });
+    }
+
+    function showTabContent(i=0){//i = 0 что начальный таб показывался первый
+        content[i].style.display = 'block';
+        tab[i].classList.add(activeClass);
+
+    }
+    hideTabContent();
+    showTabContent();
+
+    header.addEventListener('click', function(e){
+        const target = e.target;
+        if(target.classList.contains(tabSelector.replace(/\./, "")) ||
+        target.parentNode.classList.contains(tabSelector.replace(/\./, ""))){//проверяем что мы действительно кликнули в один из табов
+            tab.forEach((item, i)=>{
+                if (target == item || target.parentNode == item){
+                    hideTabContent();
+                    showTabContent(i);
+                }
+            });
+        }
+    });
 
 };
 
