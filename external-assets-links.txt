@@ -1,0 +1,93 @@
+
+001 -
+https://github.com/yankovalenko94/JS_practice
+
+
+002 -
+https://browserl.ist/?q=%3E+1%25%2C+not+dead
+
+
+002 -Node.js- 
+https://nodejs.org/en/
+
+
+002 -npm
+ https://habr.com/ru/post/243335/
+
+
+002 -gulp 
+https://getinstance.info/articles/tools/introduction-to-gulp/
+
+
+003 - 
+https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D0%B4%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5_%D0%BE%D0%BA%D0%BD%D0%BE
+
+
+003 DOMContentLoaded https://developer.mozilla.org/ru/docs/Web/Events/DOMContentLoaded
+
+
+003 CSS-overflow
+http://htmlbook.ru/css/overflow
+
+
+004 -
+https://learn.javascript.ru/regexp-methods
+
+
+004 -forEach
+https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+
+
+004 -2
+https://learn.javascript.ru/event-delegation
+
+
+005 FormData 
+https://developer.mozilla.org/ru/docs/Web/API/FormData
+
+
+005 Fetch-API
+https://developer.mozilla.org/ru/docs/Web/API/Fetch_API/Using_Fetch
+
+
+005 -
+https://www.youtube.com/watch?v=h7lzKar7m0g&list=PLQEds1ESt7cvWq2NwkBDG-3OOBytuuytZ
+
+
+005 async-await
+https://learn.javascript.ru/async-await
+
+
+006 Data-https://developer.mozilla.org/ru/docs/Web/Guide/HTML/Using_data_attributes
+
+
+007 FormData.append-
+https://developer.mozilla.org/ru/docs/Web/API/FormData/append
+
+
+007 Switch-case
+https://learn.javascript.ru/switch
+007 -
+https://github.com/yankovalenko94/JS_practice/tree/master/Window_step_4
+
+008 -Date
+https://learn.javascript.ru/datetime
+
+
+008 -
+https://github.com/yankovalenko94/JS_practice/tree/master/Window_step_5
+
+
+009 cssText
+https://www.w3schools.com/jsref/prop_style_csstext.asp
+
+
+009 -
+https://github.com/yankovalenko94/JS_practice/tree/master/Window_step_6
+
+010 CSS-Animation
+https://html5book.ru/css3-animation
+
+
+010 -
+https://learn.javascript.ru/size-and-scroll
