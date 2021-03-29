@@ -17961,7 +17961,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var forms = function forms() {
+var forms = function forms(state) {
   var form = document.querySelectorAll('form'),
       inputs = document.querySelectorAll('input');
   Object(_checkNum__WEBPACK_IMPORTED_MODULE_5__["default"])('input[name="user_phone"]');
@@ -18014,6 +18014,13 @@ var forms = function forms() {
       statusMessage.classList.add('status');
       item.appendChild(statusMessage);
       var formData = new FormData(item);
+
+      if (item.getAttribute('data-calc') === "end") {
+        for (var key in state) {
+          formData.append(key, state[key]);
+        }
+      }
+
       postData('assets/server.php', formData).then(function (res) {
         console.log(res);
         statusMessage.textContent = message.success;
