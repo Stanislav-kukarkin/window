@@ -18212,6 +18212,7 @@ var timer = function timer() {
         minutes = timer.querySelector('#minutes'),
         seconds = timer.querySelector('#seconds'),
         timeInterval = setInterval(updateClock, 1000);
+    updateClock();
 
     function updateClock() {
       var t = getTimeRemaining(endtime);
