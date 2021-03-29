@@ -1,14 +1,12 @@
+import checkNumInputs from './checkNum';
+
 const forms = () =>{
 
     const form = document.querySelectorAll('form'),
-          inputs = document.querySelectorAll('input'),
-          phoneInputs = document.querySelectorAll('input[name="user_phone"]');
+          inputs = document.querySelectorAll('input');
 
-    phoneInputs.forEach(item => {
-        item.addEventListener('input', ()=>{
-            item.value = item.value.replace(/\D/, '');
-        });// если пользователь ввел не число заменяет на пустую строку
-    });
+
+          checkNumInputs('input[name="user_phone"]');
 
     const message = {
         loading: 'Загрузка',
