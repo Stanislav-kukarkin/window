@@ -6,6 +6,20 @@ html {
   font-size: 10px;
 }
 
+.faded{
+  animation-name: faded;
+  animation-duration: 1.5s;
+}
+
+@keyframes faded {
+  from {
+    opacity:0.1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
